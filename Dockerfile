@@ -1,7 +1,6 @@
 FROM gcc:latest
 MAINTAINER Ambar Pawar
 
-COPY ./Cfiles/bckup
 
 WORKDIR ./Cfiles
 
