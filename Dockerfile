@@ -1,9 +1,9 @@
 FROM gcc:latest
 MAINTAINER Ambar Pawar
 
-COPY ./usr/src/mycapp
+COPY ./Cfiles/bckup
 
-WORKDIR /usr/src/mycapp
+WORKDIR ./Cfiles
 
 RUN gcc -o first first.c
 CMD [".Desktop/first"]
