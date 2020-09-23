@@ -4,5 +4,5 @@ MAINTAINER Ambar Pawar
 
 WORKDIR ./Cfiles
 
-RUN gcc -o first first.c
+RUN echo gcc -o first first.c
 CMD [".Desktop/first"]
